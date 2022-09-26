@@ -1,0 +1,85 @@
+@import-normalize;
+
+/* :root{
+    --clr-bcg:#F1F3CE;
+    --clr-font:#1E656D;
+    --clr-primary:#F62A00;
+} */
+
+.dark-theme {
+  --clr-bcg: #1e656d;
+  --clr-font: #f1f3ce;
+  --clr-primary: #f58069;
+}
+
+.light-theme {
+  --clr-bcg: #f1f3ce;
+  --clr-font: #1e656d;
+  --clr-primary: #f62a00;
+}
+
+*,
+::before,
+::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background: var(--clr-bcg);
+  color: var(--clr-font);
+}
+
+.btn {
+  padding: 10px 18px;
+  font-size: 1rem;
+  font-weight: bold;
+  border: none;
+  border-radius: 0.3rem;
+  background: var(--clr-primary);
+  color: var(--clr-bcg);
+  cursor: pointer;
+}
+
+.nav-centre {
+  width: 90vw;
+  max-width: 600px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 2rem 0;
+}
+
+.nav-centre h1 {
+  font-size: 2rem;
+  text-transform: capitalize;
+  letter-spacing: 1.5px;
+  color: var(--clr-font);
+}
+
+.lists {
+  padding: 5rem 0;
+  width: 90vw;
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.post {
+  margin-bottom: 3rem;
+}
+
+.post h2 {
+  color: var(--clr-primary);
+  text-transform: capitalize;
+  font-size: 1.75rem;
+  letter-spacing: 2px;
+  margin-bottom: 0.75rem;
+}
+
+.post-info {
+  color: var(--clr-font);
+  font-size: 1.25rem;
+}
