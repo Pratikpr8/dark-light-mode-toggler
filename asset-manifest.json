@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/dark-light-mode-toggler/static/css/main.7aaae1dd.css",
+    "main.js": "/dark-light-mode-toggler/static/js/main.8083887a.js",
+    "index.html": "/dark-light-mode-toggler/index.html",
+    "main.7aaae1dd.css.map": "/dark-light-mode-toggler/static/css/main.7aaae1dd.css.map",
+    "main.8083887a.js.map": "/dark-light-mode-toggler/static/js/main.8083887a.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.7aaae1dd.css",
+    "static/js/main.8083887a.js"
+  ]
+}
