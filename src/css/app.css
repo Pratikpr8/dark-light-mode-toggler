@@ -1,11 +1,3 @@
-@import-normalize;
-
-/* :root{
-    --clr-bcg:#F1F3CE;
-    --clr-font:#1E656D;
-    --clr-primary:#F62A00;
-} */
-
 .dark-theme {
   --clr-bcg: #1e656d;
   --clr-font: #f1f3ce;
